@@ -1,0 +1,49 @@
+html{
+    font-family: var(--font-family);
+}
+
+main{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pintura{
+    
+    position: relative;
+    width: 335px;
+    height: 431px;
+    
+    
+}
+.pintura .informacao{
+    position: absolute;
+    bottom: 40px;
+    left: 21px;
+    color: #fff;
+    
+}
+
+.pintura .imagem{
+    width: 100%;
+}
+
+.nome{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.artista{
+    
+    font-size: 17px;
+    color: #ccc;
+}
+
